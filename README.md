@@ -1,1 +1,1 @@
-# OperadoresAritmeticos-dadoporlamaestra-
+# Operadores-dadosporlamaestra-
