@@ -1,0 +1,59 @@
+public class OperadoresAritmeticos {
+
+	public static void main(String[] args) {
+		
+		double aa=3;
+		double bb=2;
+		int a=8,b=10;
+		int resultado;
+		double resultado2;
+		boolean x;
+		char sexo= 'f';
+		String nom="Ana";
+		 float f = 10.1234567F ;  //prueba  float f = 10.123456789101112;
+		 double d= 10.123456789101112;
+		byte s=127; //cambia a 128
+		
+		 System.out.println("el valor flotante de f es: "+ f);
+		 System.out.println("el valor double de d es: "+ d);
+		 System.out.println("el valor de byte s es:"+s);
+		
+		//Para definir una variable float en Java, se debe agregar la letra "f" o "F" al final del valor de lo contrario se marcara como double 
+		
+		resultado=a+b;
+		System.out.println("el resultado de la suma es  "+ resultado);
+		
+		
+		resultado=a-b;
+		System.out.println("el resultado de la resta es  "+ resultado);
+		
+		resultado=a*b;
+		System.out.println("el resultado de la multiplicación es  "+ resultado);
+		
+		
+		f=a/b;
+		System.out.println("el resultado de la  division es  "+ f);
+
+	
+		resultado2=aa/bb;
+		System.out.println("el resultado de la  division es  "+ resultado2);
+		
+	
+		resultado=a%b;
+		System.out.println("el resultado de la  modulo es  "+ resultado);
+		
+		x=(a<b);
+		System.out.println("el resultado de comparar a=  "+a +"  menor que   b= "+b + " es  "+ x);
+		System.out.println("el resultado de comparar a=  3  menor que   b= 2 es  false");
+		
+		System.out.println("el sexo es "+ sexo);
+		sexo='7';
+		System.out.println("el sexo es "+ sexo);
+		resultado=a+sexo;
+		System.out.println("el resultado es "+ resultado);
+		
+		System.out.println("tu nombre es "+ nom);
+		
+	}
+
+}
