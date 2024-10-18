@@ -1,0 +1,44 @@
+public class OperadoresRelacionales {
+
+	public static void main(String[] args) {
+		int a=3,b=2;
+		
+		/*Una variable de tipo var es una variable flexible que puede contener 
+		*cualquier tipo de datos en ciertos lenguajes de programación
+		*En estos lenguajes, el tipo de datos de una variable var se 
+		determina automáticamente en función del valor que se le asigna.*/
+		
+		var c=(a==b);
+		System.out.println("c="+c);
+		
+		var d= (a!=b);
+		
+		System.out.println("d="+d);
+		
+	String cadena1="hola" , cadena2="Adios";
+	
+		var e=(cadena1==cadena2);
+		System.out.println("e:"+e);
+		
+		var f= cadena1.equals(cadena2);
+		System.out.println("f:"+f);
+		
+		var g=a>b;
+		System.out.println("g:"+g);
+		
+		b=3;
+		g=a>b;
+		System.out.println("g:"+g);
+		
+		
+		g=a>=b;
+		System.out.println("g:"+g);
+		System.out.println("================");
+		
+		
+		System.out.println(5 == 6); 
+		var m=a>1.2345;
+		System.out.println("m:"+m);
+	}
+
+}
