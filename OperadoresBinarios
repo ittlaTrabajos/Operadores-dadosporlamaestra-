@@ -1,0 +1,53 @@
+public class OperadoresBinarios {
+	public static void main(String[] args) {
+		int a=3; //se inicializa la variable  "a" en 3
+		int b=-a;//a b se le asigna el valor de a pero en negativo
+		System.out.println("a="+a);//se muestra el valor de "a" en pantalla
+		System.out.println("b= "+b);//se muestra el valor de "b" en pantalla
+		System.out.println("========================");
+		
+		boolean c=true;// se declara la variable boolean  "c" 
+		boolean d=! c;// d  niega el valor de "c"
+		System.out.println("c="+c);// se muestra "c" en pantalla
+		System.out.println("d= "+d);// la  variable d muestra a "c" negada en pantalla
+		System.out.println("========================");
+		
+		int e=3;//se inicializa la variable "e" en 3
+		System.out.println("e="+e);// se muestra la variable "e" en pantalla
+		int f=++e;//se ingrementa e por lo que ahora es 3+1
+		System.out.println("e="+e);// se muestra el valor de "e" con el incremento 
+		System.out.println("f="+f);// se muestra el valor de "f" con el incremento de "e"
+		System.out.println("========================");
+		
+		int g=5;// la variable "g" se inicializa en 5
+		System.out.println("g="+g);// se muestra el valor de g en pantalla
+		
+		int h=g++;// a la variable "h" se le asigna el valor de g con un incremento
+		System.out.println("g="+g); //se muestra el valor de g incrementado en pantalla
+		System.out.println("h="+h);// se muestra valor de h antes de incrementarlo  en pantalla
+		
+		int w=g--;// se declara w con el valor de g(6)antes de decrementarlo
+		System.out.println("g="+g);// g vuelve a su valor inicial 
+		System.out.println("w="+w);//w muestra el valor de g con su incremento
+		
+		int ww=--g;//se declara ww y  se le asigna el valor de g
+		System.out.println("g="+g);// se muestra el valor de g decrementado y se muestra en pantalla
+		System.out.println("ww="+ww);//se muestra el valor de ww que es el valor de g
+		System.out.println("========================");
+
+		int i=2;//se declara la variable "i" en 2
+		System.out.println("i="+i);// se muestra i en pantalla
+		
+		int j=--i;//se declara j con el decremento de la variable i
+		System.out.println("i="+i);//se muestra el resultado de i con su decremento
+		System.out.println("j="+j);//se muestra el valor de j con el decremento de i
+		System.out.println("========================");
+		
+		int k=4;// se declara la variable k en 4
+		System.out.println("k="+k);// se muestra en pantalla el valor de k
+		
+		int l=k--;//se declara l con el decremento de k
+		System.out.println("k="+k);//se muestra k con decremento  en pantalla
+		System.out.println("l="+l);//se muestra el valor de k antes de que decremente en el valor de l
+	}
+}
